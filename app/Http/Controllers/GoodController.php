@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
 use App\Models\Good;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Admin\BaseController as BaseAdminController;
+use App\Http\Controllers\Controller;
+use App\Http\Resources\Article as ArticleResource;
 
-class GoodController extends BaseAdminController
+class GoodController extends Controller
 {
     /**
      * Display a listing of the resource.
